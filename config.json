@@ -1,0 +1,10 @@
+{
+    "AppSettings": {
+        "SiteTitle": "NewVSCodeWebApp"
+    },
+    "Data": {
+        "DefaultConnection": {
+            "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-NewVSCodeWebApp-c03f1152-f723-401b-b8b8-ff99c8d66647;Trusted_Connection=True;MultipleActiveResultSets=true"
+        }
+    }
+}
