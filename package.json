@@ -1,8 +1,29 @@
 {
-    "version": "0.0.0",
-    "name": "NewVSCodeWebApp",
-    "devDependencies": {
-        "grunt": "0.4.5",
-        "grunt-bower-task": "0.4.0"
-    }
+  "version": "1.0.0",
+  "name": "NewVSCodeWebApp",
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-bower-task": "0.4.0"
+  },
+  "description": "Test VSCode Web Application",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-less": "^1.0.1",
+    "less-plugin-autoprefix": "^1.4.2"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisgreenhow/NewVSCodeWebApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisgreenhow/NewVSCodeWebApp/issues"
+  },
+  "homepage": "https://github.com/chrisgreenhow/NewVSCodeWebApp"
 }

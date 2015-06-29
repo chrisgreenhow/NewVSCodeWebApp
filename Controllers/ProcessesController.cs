@@ -14,9 +14,9 @@ namespace NewVSCodeWebApp.Controllers.Controllers
                 [HttpGet]
                 public IEnumerable<ProcessInfo> Get()
                 {
-                        var processList = Process.GetProcesses().OrderBy(p => p.ProcessName).ToList();
-
-                        return processList.Select(p => new ProcessInfo() { Name = p.ProcessName });
+                        return Process.GetProcesses()
+                            .OrderBy(p => p.ProcessName)
+                            .Select(p => new ProcessInfo() { Name = p.ProcessName });
                 }
         }
 }
